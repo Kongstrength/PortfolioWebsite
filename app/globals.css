@@ -111,6 +111,7 @@ a:focus-visible { outline:2px solid var(--accent); outline-offset:4px; border-ra
 .about-section { background:#0e1012; border-top:1px solid var(--border); border-bottom:1px solid var(--border); padding:95px 0; }
 .about-grid { display:grid; grid-template-columns:.85fr 1.15fr; gap:75px; }
 .profile-placeholder { width:150px; height:150px; display:grid; place-items:center; position:relative; margin-bottom:28px; border:1px solid rgba(181,243,107,.25); border-radius:18px; background:radial-gradient(circle at 50% 30%,rgba(181,243,107,.2),transparent 60%),#15191d; overflow:hidden; }
+.profile-placeholder img { object-fit:cover; }
 .profile-placeholder span { color:#d9f8b7; font-size:48px; font-weight:700; letter-spacing:-.08em; }
 .profile-placeholder small { position:absolute; bottom:12px; color:#7d8792; font-size:7px; letter-spacing:.13em; }
 .about-content > p { color:#a7adb7; font-size:13px; line-height:1.95; margin:0 0 18px; }

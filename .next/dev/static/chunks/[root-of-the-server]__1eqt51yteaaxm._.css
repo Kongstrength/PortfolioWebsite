@@ -1210,6 +1210,10 @@ a:focus-visible {
   overflow: hidden;
 }
 
+.profile-placeholder img {
+  object-fit: cover;
+}
+
 .profile-placeholder span {
   color: #d9f8b7;
   letter-spacing: -.08em;

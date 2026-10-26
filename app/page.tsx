@@ -12,6 +12,8 @@ import {
   Smartphone,
   Terminal,
 } from "lucide-react";
+import Image from "next/image";
+import profilePhoto from "../media/picture/kk-457.jpg";
 
 const projects = [
   {
@@ -239,7 +241,14 @@ export default function Home() {
       <section className="about-section" id="about">
         <div className="section-wrap about-grid">
           <div className="about-intro">
-              <div className="profile-placeholder" aria-label="Profile photo placeholder"><span>SS</span><small>PHOTO PLACEHOLDER</small></div>
+              <div className="profile-placeholder">
+                <Image
+                  src={profilePhoto}
+                  alt="Sitthaphop Sukjaroen"
+                  fill
+                  sizes="150px"
+                />
+              </div>
             <p className="eyebrow">A LITTLE ABOUT ME</p>
             <h2>Curious by nature.<br /><span className="text-gradient">Practical by design.</span></h2>
           </div>
